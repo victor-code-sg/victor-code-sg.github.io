@@ -1,0 +1,25 @@
+body {
+    margin: 0px;
+    background: url(https://images.unsplash.com/photo-1621839673705-6617adf9e890?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fHdlYiUyMGRlc2lnbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    display: flex;
+    justify-content: center; /* left and right */
+}
+
+.courses {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.course {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
